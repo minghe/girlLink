@@ -1,8 +1,6 @@
 @import "../nib/vendor.styl"
 /*
- * bottomLine('down',10px,0.3s,#f19f0f)
- *    direction 动画偏移方向，可以是up和down
- *    offset Y轴偏移
+ * doubleLine(0.3s,#f19f0f)
  *    speed 动画速度
  *    borderColor 边框颜色
  *    height 边框高度
@@ -23,7 +21,7 @@ doubleLine(speed = 0.3s,borderColor = #f19f0f,height = 2px)
         transition transform speed
       &::after
         opacity: 0
-        transition top speed, opacity speed, transform speed;
+        transition top speed, opacity speed, transform speed
       &:hover::after,&:focus::after,&:hover::before,&:focus::before
         transform scale(1)
       &:hover::after,&:focus::after

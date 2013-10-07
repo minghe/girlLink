@@ -95,7 +95,6 @@ vendor-value(arg, only = null, ignore = null)
     unless (only and !(prefix in only)) or (ignore and prefix in ignore) or official == prefix
       add-property(prop, '-%s-%s' % (prefix arg))
   arg
-
 /*
  * Vendor "box-shadow" support.
  */
