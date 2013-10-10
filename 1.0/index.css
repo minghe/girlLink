@@ -69,9 +69,15 @@
 
 /* line 557 : C:\www\htdocs\gallery\girlLink\1.0\nib\config.styl */
 
-/* line 47 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
+/* line 49 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
 
-/* line 47 : C:\www\htdocs\gallery\girlLink\1.0\nib\vendor.styl */
+/* line 49 : C:\www\htdocs\gallery\girlLink\1.0\nib\vendor.styl */
+
+/* line 557 : C:\www\htdocs\gallery\girlLink\1.0\nib\config.styl */
+
+/* line 22 : C:\www\htdocs\gallery\girlLink\1.0\effect\slide.styl */
+
+/* line 22 : C:\www\htdocs\gallery\girlLink\1.0\nib\vendor.styl */
 
 /* line 557 : C:\www\htdocs\gallery\girlLink\1.0\nib\config.styl */
 
@@ -409,14 +415,14 @@
   max-width: 100%;
 }
 
-/* line 22 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
+/* line 24 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
 
-/* line 23 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
+/* line 25 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
 .effect-push-out a {
   overflow: hidden;
 }
 
-/* line 25 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
+/* line 27 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
 .effect-push-out a span {
   display: block;
   padding: 10px 20px;
@@ -428,7 +434,7 @@
   transition: transform 0.3s;
 }
 
-/* line 30 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
+/* line 32 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
 .effect-push-out a::before {
   position: absolute;
   top: 0;
@@ -451,9 +457,9 @@
   transform: translateX(-100%);
 }
 
-/* line 42 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
+/* line 44 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
 
-/* line 43 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
+/* line 45 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
 .effect-push-out a:hover span,
 .effect-push-out a:focus span {
   -webkit-transform: translateX(100%);
@@ -463,7 +469,7 @@
   transform: translateX(100%);
 }
 
-/* line 45 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
+/* line 47 : C:\www\htdocs\gallery\girlLink\1.0\effect\push-out.styl */
 .effect-push-out a:hover::before,
 .effect-push-out a:focus::before {
   -webkit-transform: translateX(0%);
@@ -471,4 +477,41 @@
   -o-transform: translateX(0%);
   -ms-transform: translateX(0%);
   transform: translateX(0%);
+}
+
+/* line 8 : C:\www\htdocs\gallery\girlLink\1.0\effect\slide.styl */
+
+/* line 9 : C:\www\htdocs\gallery\girlLink\1.0\effect\slide.styl */
+.effect-slide a {
+  overflow: hidden;
+}
+
+/* line 11 : C:\www\htdocs\gallery\girlLink\1.0\effect\slide.styl */
+.effect-slide a span {
+  display: inline-block;
+  position: relative;
+  -webkit-transition: -webkit-transform 0.3s;
+  -moz-transition: -moz-transform 0.3s;
+  -o-transition: -o-transform 0.3s;
+  -ms-transition: -ms-transform 0.3s;
+  transition: transform 0.3s;
+}
+
+/* line 15 : C:\www\htdocs\gallery\girlLink\1.0\effect\slide.styl */
+.effect-slide a span::before {
+  position: absolute;
+  top: 100%;
+  content: attr(data-hover);
+}
+
+/* line 19 : C:\www\htdocs\gallery\girlLink\1.0\effect\slide.styl */
+
+/* line 20 : C:\www\htdocs\gallery\girlLink\1.0\effect\slide.styl */
+.effect-slide a:hover span,
+.effect-slide a:focus span {
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  transform: translateY(-100%);
 }
