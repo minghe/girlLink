@@ -1,10 +1,8 @@
 @import "../nib/vendor.styl"
-slide3d(direction = 'top',speed = 0.3s)
-  offset = translateY(-100%)
-  d = 'top'
-  if direction is 'bottom'
-    offset = translateY(100%)
-    d = 'bottom'
+/*
+ *    slide3d(0.3s)
+ */
+slide3d(speed = 0.3s)
   .effect-slide-3d
     a
       line-height: 44px
